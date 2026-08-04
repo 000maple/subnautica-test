@@ -1,0 +1,20 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": { "text": "Portal Core", "italic": false }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
