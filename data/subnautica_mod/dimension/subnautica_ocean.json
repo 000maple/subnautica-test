@@ -5,8 +5,43 @@
     "seed": 0,
     "settings": "minecraft:overworld",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "minecraft:ocean"
+      "type": "minecraft:multi_noise",
+      "seed": 0,
+      "biomes": [
+        {
+          "biome": "minecraft:deep_ocean",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": -1.0,
+            "erosion": 0.0,
+            "depth": -1.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:deep_cold_ocean",
+          "parameters": {
+            "temperature": -0.2,
+            "humidity": 0.0,
+            "continentalness": -1.0,
+            "erosion": 0.0,
+            "depth": -0.5,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:warm_ocean",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.8,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0
+          }
+        }
+      ]
     }
   }
 }
